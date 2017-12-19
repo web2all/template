@@ -1,0 +1,24 @@
+{
+    "name": "web2all/template",
+    "description": "Web2All template engine wraps Savant3",
+    "keywords": ["web2all","savant","template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merijn van den Kroonenberg",
+            "homepage": "https://github.com/merijnvdk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "saltybeagle/savant3" :"*",
+        "web2all/framework" :"~1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
